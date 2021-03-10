@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- ref to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+
+    <!-- ref to bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- ref to my stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- ref to font awesome -->
+    <script src="https://kit.fontawesome.com/4a3eda80d3.js" crossorigin="anonymous"></script>
+    
+    <!-- ref to jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script>
+        moment().format();
+    </script>
+
+    <title>Day Planner</title>
+</head>
+<body>
+    <div class="row header">
+        <div class="col m-auto">
+            <h1 class="day">Day Planner</h1>
+            <p class="mb-1">A simple calendar to Schedule your day!</p>
+            <h4 id="current-day" class="date"></h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">15<sup>th</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="15"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">16<sup>th</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="16"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">17<sup>th</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="17"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">18<sup>th</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="18"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">19<sup>th</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="19"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">20<sup>th</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="20"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">21<sup>st</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="21"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">22<sup>nd</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="22"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <div class="row bottom-line">
+            <div class="d-flex justify-content-center align-items-center col-2 col-md-1 hour" id="nums">23<sup>rd</sup></div>
+            <div class="col-8 col-md-10 todo">
+                <textarea id="23"></textarea>
+            </div>
+            <div class="col-2 col-md-1 save">
+                <span class="fas fa-save"></span>
+            </div>
+        </div>
+        <button id="clear-button"><h3 class="btn">Clear Schedule</h3></button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
